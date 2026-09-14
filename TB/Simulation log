@@ -1,0 +1,27 @@
+PHASE 1: Resetting the FIFO.
+VCD info: dumpfile testbench/testbench.vcd opened for output.
+[0] wr=0 rd=0 din=0000 | dout=xxxx full=x empty=x
+[1] wr=0 rd=0 din=0000 | dout=xxxx full=0 empty=1
+
+PHASE 2: Filling the FIFO.
+[7] wr=1 rd=0 din=1000 | dout=xxxx full=0 empty=1
+[9] wr=1 rd=0 din=1001 | dout=xxxx full=0 empty=0
+[11] wr=1 rd=0 din=1002 | dout=xxxx full=0 empty=0
+[13] wr=1 rd=0 din=1003 | dout=xxxx full=0 empty=0
+[15] wr=1 rd=0 din=1004 | dout=xxxx full=0 empty=0
+[17] wr=1 rd=0 din=1005 | dout=xxxx full=0 empty=0
+[19] wr=1 rd=0 din=1006 | dout=xxxx full=0 empty=0
+[21] wr=1 rd=0 din=1007 | dout=xxxx full=1 empty=0
+[23] wr=0 rd=0 din=1007 | dout=xxxx full=1 empty=0
+
+PHASE 4: Emptying the FIFO.
+[25] wr=0 rd=1 din=1007 | dout=xxxx full=1 empty=0
+[27] wr=0 rd=1 din=1007 | dout=1000 full=0 empty=0
+[29] wr=0 rd=1 din=1007 | dout=1001 full=0 empty=0
+[31] wr=0 rd=1 din=1007 | dout=1002 full=0 empty=0
+[33] wr=0 rd=1 din=1007 | dout=1003 full=0 empty=0
+[35] wr=0 rd=1 din=1007 | dout=1004 full=0 empty=0
+[37] wr=0 rd=1 din=1007 | dout=1005 full=0 empty=0
+[39] wr=0 rd=1 din=1007 | dout=1006 full=0 empty=1
+[41] wr=0 rd=0 din=1007 | dout=1006 full=0 empty=1
+testbench/testbench.v:69: $finish called at 46 (1s)
