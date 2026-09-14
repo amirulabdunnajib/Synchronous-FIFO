@@ -65,7 +65,7 @@ The design consists of three main functional blocks:
 
 ### Block Diagram
 
-![Synchronous FIFO Block Diagram](<img width="773" height="383" alt="image" src="https://github.com/user-attachments/assets/9ade0b37-1d90-4b1c-87f1-78c6838e11c9" />)
+(<img width="773" height="383" alt="image" src="https://github.com/user-attachments/assets/9ade0b37-1d90-4b1c-87f1-78c6838e11c9" />)
 
 The `fifo_core` contains the FIFO memory and controls the read/write
 pointers.
