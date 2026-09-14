@@ -95,7 +95,7 @@ top
 └── onetotwo
     ├── Full flag connection
     └── Empty flag connection
-
+```
 | File                          | Module        | Description                        |
 | ----------------------------- | ------------- | ---------------------------------- |
 | `SynchronousFIFO_Topmodule.v` | `top`         | Top-level integration              |
