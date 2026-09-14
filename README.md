@@ -95,3 +95,11 @@ top
 └── onetotwo
     ├── Full flag connection
     └── Empty flag connection
+
+| File                          | Module        | Description                        |
+| ----------------------------- | ------------- | ---------------------------------- |
+| `SynchronousFIFO_Topmodule.v` | `top`         | Top-level integration              |
+| `FIFO_Core.v`                 | `fifo_core`   | FIFO memory and read/write control |
+| `FIFO_Status.v`               | `fifo_status` | Generates `full` and `empty`       |
+| `OnetoTwo.v`                  | `onetotwo`    | Signal connection/buffering block  |
+
